@@ -1,0 +1,26 @@
+{
+  "name": "typescript-config-sort",
+  "version": "1.0.0",
+  "description": "Project on typescript configuration options, creating classes and interfaces to build a generic code that can be used on sorting any data type",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yas1th/typescript-config-sort.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yas1th/typescript-config-sort/issues"
+  },
+  "homepage": "https://github.com/yas1th/typescript-config-sort#readme",
+  "dependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.4"
+  }
+}
